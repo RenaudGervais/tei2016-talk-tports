@@ -46,6 +46,14 @@
 					</aside>
 				</section>
 
+				<section data-background="">
+					<h2>Metaphor</h2>
+					<img src="./media/tports-cursor-application.png" height="500px">
+					<aside class="notes">
+						
+					</aside>
+				</section>
+
 			</div>
 
 		</div>
@@ -58,10 +66,19 @@
 			// Full list of configuration options available at:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
-				controls: true,
+				controls: false,
 				progress: true,
 				history: true,
 				center: true,
+
+				// Display the page number of the current slide
+		        slideNumber: 'h-v',
+
+		        // The "normal" size of the presentation, aspect ratio will be preserved
+		        // when the presentation is scaled to fit different resolutions. Can be
+		        // specified using percentage units.
+		        width: 1280,
+		        height: 720,
 
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
